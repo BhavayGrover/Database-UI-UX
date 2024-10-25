@@ -1,0 +1,119 @@
+@import url('https://fonts.google.com/share?selection.family=Audiowide');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.firstbackground{
+    
+        background:  linear-gradient(90deg, rgba(233, 233, 233, 0.4), rgba(172, 172, 172, 0.4)), url("backgroundimg.avif");
+        height: 100vh;
+        background-size: cover;
+}
+
+.navbar-1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(215, 214, 223, 0.4);
+    padding:3vh 0;
+}
+
+.navbar-1 li{
+    list-style: none;
+    
+}
+
+.navbar-1 li a {
+    text-decoration: none;
+color: white;
+}
+
+.navbar-1 li a:hover{
+    color: lavender;
+    border-bottom: 2px solid lavender;
+    padding-bottom: 0.5vh;
+}
+
+
+.loginpage h1{
+    text-align: center;
+    margin-top: 65px;
+    color: white;
+    font-family: "Rampart One", sans-serif;
+    font-weight: 400;
+    font-size: 225%;
+}
+
+.loginpage:hover{
+    font-size: 125%;
+    transition: 0.5s;
+}
+
+.loginbox{
+padding: 25px;
+background: rgba( 255, 255, 255, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+margin: 10%;
+
+}
+
+
+.buttonclass {
+    text-align: center;
+}
+
+
+.formdata{
+    text-align: center;
+    font-family: "Rampart One", sans-serif;
+    font-size: 130%;
+    
+    font-weight: 1000;
+}
+
+
+.btn{
+    width: 8vw;
+    height: 3vw;
+    border-radius: 1.4vh;
+    background: transparent;
+    font-weight: 800;
+    border: 2px solid black;
+    margin: 3vh 0 0 0;
+    overflow: hidden;
+    font-family: "Rampart One", sans-serif;
+    
+    font-weight: 800;
+    
+
+    
+    
+    }
+    
+    
+    .btn:hover{
+    background: rgba(0,0,0,0.4);
+    transition: 0.6s;
+    color: whitesmoke;
+    
+    }
+    
+
+    input.blank {
+        background-color: transparent;
+        border: 2px solid ;
+        border-radius: 15px;
+        padding: 10px;
+        color: #333;
+        font-size: 16px;
+        outline: none;
+    }

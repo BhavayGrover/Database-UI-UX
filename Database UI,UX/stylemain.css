@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+
+.navbar-1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(215, 214, 223, 0.4);
+    padding:3vh 0;
+}
+
+.navbar-1 li{
+    list-style: none;
+    
+}
+
+.navbar-1 li a {
+    text-decoration: none;
+color: white;
+}
+
+.navbar-1 li a:hover{
+    color: lavender;
+    border-bottom: 2px solid lavender;
+    padding-bottom: 0.5vh;
+}
+
+
+body{
+    background: gray;
+}
+
+.pichart1{
+    -webkit-border-radius: 22px;
+border-radius: 22px;
+background: #9b9b9b;
+-webkit-box-shadow: 25px 25px 40px #3e3e3e, -25px -25px 25px #f8f8f8;
+box-shadow: 25px 25px 40px #3e3e3e, -25px -25px 25px #f8f8f8;
+margin: 10px;
+height: 300px;
+width: 300px;
+margin-top: 125px;
+}
+
+.piechart1:hover{
+    width: 220px;
+    height: 220px;
+    transition: 0.5s;
+}
+
+
+.donut-chart {
+    margin-top: 10px;
+    position: relative;
+      width: 200px;
+    height: 200px;
+      margin: 0 auto 2rem;
+      border-radius: 100%
+   }
+  p.center {
+    background: transparent;
+    position: absolute;
+    text-align: center;
+  font-size: 28px;
+    top:0;left:0;bottom:0;right:0;
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    border-radius: 50%;
+    line-height: 35px;
+    padding: 15% 0 0;
+  }
+      
+      
+  .portion-block {
+      border-radius: 50%;
+      clip: rect(0px, 200px, 200px, 100px);
+      height: 100%;
+      position: absolute;
+      width: 100%;
+    }
+  .circle {
+      border-radius: 50%;
+      clip: rect(0px, 100px, 200px, 0px);
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      font-family: monospace;
+      font-size: 1.5rem;
+    }
+      
+      
+  #part1 {
+      transform: rotate(0deg);
+    }
+  
+      #part1 .circle {
+          background-color: #E64C65;
+          /*transform: rotate(76deg);*/
+          animation: first 1s 1 forwards;
+        }
+      
+      
+  #part2 {
+      transform: rotate(100deg);
+    }
+  #part2 .circle {
+      background-color: #11A8AB;
+      animation: second 1s 1 forwards 1s;
+    }
+  #part3 {
+      transform: rotate(250deg);
+  }
+      #part3 .circle {
+          background-color: #4FC4F6;
+          animation: third 0.5s 1 forwards 2s;
+      }
+      
+      
+  /* Animation */
+  @keyframes first {
+      from {transform: rotate(0deg);}
+      to {transform: rotate(100deg);}
+  }
+      
+  @keyframes second {
+      from {transform: rotate(0deg);}
+      to {transform: rotate(150deg);}
+  }
+      
+  @keyframes third {
+      from {transform: rotate(0deg);}
+      to {transform: rotate(111deg);}
+  }
+
+
+  .maindata{
+    text-align: center;
+    color: white;
+    font-family: "Rampart One", sans-serif;
+  }
+
+
+
+  .picharts{
+    display: flex;
+    justify-content: space-between ;
+  }
+
+
+  
+.pichart2{
+    -webkit-border-radius: 22px;
+border-radius: 22px;
+background: #9b9b9b;
+-webkit-box-shadow: 25px 25px 40px #3e3e3e, -25px -25px 40px #f8f8f8;
+box-shadow: 25px 25px 40px #3e3e3e, -25px -25px 40px #f8f8f8;
+margin: 10px;
+height: 300px;
+width: 300px;
+margin-top: 125px;
+}
+
+.pichart3{
+    -webkit-border-radius: 22px;
+border-radius: 22px;
+background: #9b9b9b;
+-webkit-box-shadow: 25px 25px 40px #3e3e3e, -25px -25px 40px #f8f8f8;
+box-shadow: 25px 25px 40px #3e3e3e, -25px -25px 40px #f8f8f8;
+margin: 10px;
+height: 300px;
+width: 300px;
+margin-top: 125px;
+}
+
+.pichart4{
+    -webkit-border-radius: 22px;
+border-radius: 22px;
+background: #9b9b9b;
+-webkit-box-shadow: 25px 25px 40px #3e3e3e, -25px -25px 40px #f8f8f8;
+box-shadow: 25px 25px 40px #3e3e3e, -25px -25px 40px #f8f8f8;
+margin: 10px;
+height: 300px;
+width: 300px;
+margin-top: 125px;
+}
+
+
+
+.graph{
+margin-top: 225px;
+height: 500px;
+width: 500px;
+margin-left: 55px;
+border-radius: 25px;
+margin-right: 55px;
+}
+
+.graph:hover{
+  height: 450px;
+  width: 450px;
+  transition: 0.7s;
+}
+
+.graphing{
+  display: flex;
+  justify-content: space-between ;
+}
+
+
+.barcharts{
+  margin-top: 200px;
+  margin-left: 55px;
+}
+
+
+.bargraph{
+  margin-top: 100px;
+  height: 500px;
+  width: 500px;
+  margin-left: 55px;
+  border-radius: 25px;
+  margin-right: 55px;
+  }
+  
+  .bargraph:hover{
+    height: 450px;
+    width: 450px;
+    transition: 0.7s;
+  }
+
+
+
